@@ -225,7 +225,6 @@
 				TargetAttributes = {
 					49C899AA1B357AB20022C77A = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 49E367C31B2EF3FF00FBEE6D;
 					};
 					49E367C31B2EF3FF00FBEE6D = {
 						CreatedOnToolsVersion = 7.0;
@@ -328,28 +327,24 @@
 		49C899B31B357AB20022C77A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS/";
 				INFOPLIST_FILE = KIFTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.laurinbrandner.KIFTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
 			};
 			name = Debug;
 		};
 		49C899B41B357AB20022C77A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS/";
 				INFOPLIST_FILE = KIFTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.laurinbrandner.KIFTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
 			};
 			name = Release;
 		};
