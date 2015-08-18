@@ -47,7 +47,7 @@ class UITests: XCTestCase {
         }
         
         let duration = NSDate().timeIntervalSinceDate(date)
-        println(duration)
+        print(duration)
     }
     
 }
